@@ -4,10 +4,14 @@ from pydantic import BaseModel
 
 class UserInfoBase(BaseModel):
     username: str
-    fullname: str
 
 
 class UserCreate(UserInfoBase):
+    fullname: str
+    password: str
+
+
+class UserAuthenticate(UserInfoBase):
     password: str
 
 

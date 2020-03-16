@@ -10,6 +10,8 @@ fastapi = "*"
 uvicorn = "*"
 sqlalchemy = "*"
 mysql-connector-python = "*"
+bcrypt = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.7"
